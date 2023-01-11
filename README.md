@@ -6,13 +6,13 @@ Inspired by CodingTrain on Youtube
 - ```make``` (optional)
 
 ### Building 
-```
+```sh
 git clone https://github.com/mustardfrog/random-walker
 cd random-walker
-# if you have make installed
-make && ./main
 
-# without make
-chmod +x build.sh 
+make && ./main # if you have make installed
+
+chmod +x build.sh # without make
 ./build.sh && ./main
 ```
+![Random Walker](./img/random-walk-simple.png)
